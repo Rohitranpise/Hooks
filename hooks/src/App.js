@@ -1,14 +1,18 @@
 import "./App.css";
-import HookCounter from "./components/HookCounter";
-// import Object from "./components/Object";
-import Array from "./components/Array";
+// import TitleWithClass from "./components/TitleWithClass";
+import TitleWithFunct from "./components/TitleWithFunct";
+// import HookCounter from "./components/HookCounter";
+// // import Object from "./components/Object";
+// import Array from "./components/Array";
 
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      {/* <TitleWithClass /> */}
+      <TitleWithFunct />
+      {/* <HookCounter /> */}
       {/* <Object /> */}
-      <Array />
+      {/* <Array /> */}
     </div>
   );
 }
