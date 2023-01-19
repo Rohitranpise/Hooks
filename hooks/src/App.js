@@ -1,6 +1,8 @@
 import "./App.css";
+import CounterOne from "./components/CounterOne";
+import Settimeout from "./components/Settimeout";
 // import TitleWithClass from "./components/TitleWithClass";
-import TitleWithFunct from "./components/TitleWithFunct";
+// import TitleWithFunct from "./components/TitleWithFunct";
 // import HookCounter from "./components/HookCounter";
 // // import Object from "./components/Object";
 // import Array from "./components/Array";
@@ -8,8 +10,10 @@ import TitleWithFunct from "./components/TitleWithFunct";
 function App() {
   return (
     <div className="App">
+      {/* <CounterOne /> */}
+      {/* <Settimeout /> */}
       {/* <TitleWithClass /> */}
-      <TitleWithFunct />
+      {/* <TitleWithFunct /> */}
       {/* <HookCounter /> */}
       {/* <Object /> */}
       {/* <Array /> */}
