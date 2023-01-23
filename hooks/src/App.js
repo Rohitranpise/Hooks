@@ -1,4 +1,5 @@
 import "./App.css";
+import ArrayComponent from "./components/ArrayComponent";
 import CounterOne from "./components/CounterOne";
 import Settimeout from "./components/Settimeout";
 // import TitleWithClass from "./components/TitleWithClass";
@@ -10,6 +11,7 @@ import Settimeout from "./components/Settimeout";
 function App() {
   return (
     <div className="App">
+      <ArrayComponent />
       {/* <CounterOne /> */}
       {/* <Settimeout /> */}
       {/* <TitleWithClass /> */}
